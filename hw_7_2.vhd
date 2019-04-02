@@ -45,8 +45,9 @@ Architecture smoother_arch of smoother is
 	begin
 	internal_clock:	process
 				begin
+					wait for 100ns;
 			  		clk <= NOT clk;
-				wait for 100ns;
+				
 				end process internal_clock;
 	process(clk, c_in)
 		begin
