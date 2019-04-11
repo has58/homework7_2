@@ -8,7 +8,7 @@ Library IEEE;
 Use IEEE.std_logic_1164.All;
 
 Entity smoother is
-  port( c_in1 : in std_logic;
+  port( c_in : in std_logic;
         c_out : out std_logic);
   end Entity;
 
@@ -47,7 +47,7 @@ Architecture smoother_arch of smoother is
 				begin
 					wait for 100ns;
 			  		clk <= NOT clk;
-				
+
 				end process internal_clock;
 	process(clk, c_in)
 		begin

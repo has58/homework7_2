@@ -12,7 +12,7 @@ Entity smoother is
         c_out : out std_logic);
   end Entity;
 
--- Architecture to calculate number of time input character come in every 100ns 
+-- Architecture to calculate number of time input character come in every 100ns
 Architecture smoother_arch of smoother is
 	-- array with index data type std_logic
 	-- std_index_array ('U', 'X','0','1','Z','W','L','H','-')
@@ -49,17 +49,17 @@ Architecture smoother_arch of smoother is
 				wait for 100ns;
 				end process internal_clock;
 	process(clk, c_in)
-		begin	
-			if (clk'event) then
-				-- update the result
-				-- this function check which character have highest frequency and return that charecter
-				c_out <= max(main_array);
-				main_array <= reset_array;
-			end if;
+		begin
+
 			if (c_in'event) then
 				--update the array
 				counter(main_array, c_in);
-
+      end if;
+      if (clk'event) then
+  			-- update the result
+  			-- this function check which character have highest frequency and return that charecter
+  			c_out <= max(main_array);
+  			main_array <= reset_array;
 			end if;
 		end process;
 	end smoother_arch;
@@ -80,7 +80,7 @@ Architecture smoother_arch_time of smoother is
     		variable biggest: std_logic := '0';
     		begin
 			for i in std_index_array'range  loop
-          			if (array_max(biggest) < array_max(i) or (array_max(biggest) = array_max(i)) then
+          			if ((array_max(biggest) < array_max(i)) or (array_max(biggest) = array_max(i))) then
             				biggest :=i;
           			end if;
         		end loop;

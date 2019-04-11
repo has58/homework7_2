@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 Esmoother
-Z0 w1554224714
+Z0 w1554232116
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z3 dC:/Users/siddi/vlsi/homework/homework7_2
@@ -21,9 +21,9 @@ V4`Q7KLA[4F`eaoH^mS;D=3
 !s100 RTGgGz1PNaO2e=N6DghUf3
 Z6 OP;C;10.4a;61
 32
-Z7 !s110 1554224717
+Z7 !s110 1554232121
 !i10b 1
-Z8 !s108 1554224717.000000
+Z8 !s108 1554232121.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\siddi\vlsi\homework\homework7_2\hw_7_2.vhd|
 Z10 !s107 C:\Users\siddi\vlsi\homework\homework7_2\hw_7_2.vhd|
 !i113 1
@@ -33,10 +33,10 @@ Asmoother_arch_time
 R1
 R2
 Z13 DEx4 work 8 smoother 0 22 4`Q7KLA[4F`eaoH^mS;D=3
-l99
-L68
-VCigiQOF5RbbNda33FA92g1
-!s100 khDIVGj;NgMMW<BiNZ90:0
+l100
+L69
+Z14 VXB6:]:<a^MW?zkS`=F>na2
+Z15 !s100 GSf`>V814^`S`bMZ93[_a0
 R6
 32
 R7
@@ -53,8 +53,8 @@ R2
 R13
 l45
 L16
-Z14 V;k36iEMaTbWNnWZ1DGUZ_1
-Z15 !s100 b3h>l:FkAhI12`:O:k?b30
+Z16 VXo1dK3=`IANW4i@d^z:?^3
+Z17 !s100 YgGn>dom:_?RZAGAe>TDV3
 R6
 32
 R7
